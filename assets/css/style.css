@@ -184,7 +184,7 @@ html {
 }
 
 #content {
-    height: 1000px;
+    /* height: 1000px; */
     background-color: #fff;
 }
 
@@ -221,6 +221,7 @@ html {
 
 #content .members-list {
     margin-top: 48px;
+    margin-bottom: 32px;
     width: 800px;
     height: 222px;
     display: inline-block;
@@ -288,7 +289,6 @@ html {
 .tour-section .places-list {
     margin-top: 32px;
     margin-bottom: 48px;
-    padding-bottom: 48px;
 }
 
 .tour-section .place-body {
@@ -341,10 +341,6 @@ html {
 
 .tour-section .place-img:hover {
     opacity: 0.6;
-}
-
-#footer {
-    
 }
 
 #slider .text-content {
@@ -472,6 +468,7 @@ html {
 
 .contact-section .contact-content {
     margin-top: 48px;
+    padding-bottom: 32px;
 } 
 
 .contact-section .contact-info {
@@ -505,6 +502,44 @@ html {
     color: #000!important;
     background-color: #ccc!important;
 }
+
+.map-section .map {
+    width: 100%;
+}
+
+ #footer {
+    padding: 64px 16px;
+    text-align: center;
+ }
+
+#footer .socical-lists a{
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+}
+
+#footer .socical-lists a:hover{
+    color: rgba(0, 0, 0, 0.4);
+}
+
+#footer .copyright {
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: rgba(0, 0, 0, 0.6);
+}
+/*- Css lên class hay id thì chỉ áp dụng vào thẻ 
+chứa class hoặc id đó. còn lại không được áp dụng
+ví dụ như css .copyright thì chỉ áp dụng cho thẻ P vì thẻ P
+chứa class .copyright, còn thẻ a thì không có (mặc dù
+thẻ a nằm ở trong thẻ p)
+- cho nên nếu muốn css cho thẻ a thì phải thêm 
+a vào sau class và css*/
+#footer .copyright a {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+
 
 @keyframes modalFaceIn {
     from {
