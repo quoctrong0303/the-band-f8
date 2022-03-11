@@ -73,7 +73,7 @@ html {
 
 
 #main {
-    overflow: hidden;
+    
 }
 
 .clear {
@@ -88,7 +88,7 @@ html {
     left: 0;
     right: 0;
     z-index: 1;
-    overflow: hidden;
+    
 }
 
 #nav, .subnav {
@@ -237,7 +237,6 @@ html {
     margin-bottom: 32px;
     width: 800px;
     max-width: 100%;
-    height: 222px;
     display: inline-block;
 }
 
@@ -568,11 +567,15 @@ a vào sau class và css*/
 
 
 #header .mobile-menu-btn {
+    display: none;
     float: right;
     line-height: 46px;
     padding: 0 24px;
     width: 62px;
     cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 #header .mobile-menu-btn-icon {
