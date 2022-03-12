@@ -66,3 +66,18 @@
         margin-top: 8px;
     }
 }
+
+
+/* Tablet and mobile */
+@media  (max-width: 1023px) {
+  .btn {
+      padding: 15px 16px;
+  }  
+  .socical-lists a{
+    margin: 0 8px;
+  }
+  #footer .copyright a {
+      padding: 12px 0;
+      display: inline-block;
+  }
+}
